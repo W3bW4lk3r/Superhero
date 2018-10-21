@@ -9,7 +9,7 @@ namespace XUnitTestProject
         [Fact]
         public void TestSuperHeroCount()
         {
-            int expected = 4;
+            int expected = 5;
 
             // TODO: we should use the interface and MOQ.
             var repo = new SuperheroRepository();
